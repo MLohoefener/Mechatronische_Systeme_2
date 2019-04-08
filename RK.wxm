@@ -1,0 +1,40 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 17.05.1 ] */
+/* [wxMaxima: input   start ] */
+G_S: K_S / (1 + (T_1+T_2)*s + T_1*T_2*s^2);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+G_R: K_R * (1 + 1/(T_N*s) + T_V*s);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+Denom: 1 + G_S * G_R;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+G_wx = ratsimp ( G_R * G_S / Denom)                                                             ;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+G_wy = ratsimp ( G_R / Denom)                                                                   ;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+G_zx = ratsimp (G_S /Denom)                                                                     ;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+G_zy = ratsimp (- G_S * G_R /Denom)                                                             ;
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$
