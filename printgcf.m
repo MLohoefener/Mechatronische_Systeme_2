@@ -19,7 +19,7 @@ function printgcf (FileName, GridMinor)
   hold off
   
   v = version;  
-  if str2double(v(1:3))<5     % GNU Octave?
+  if str2double(v(1:3))<6     % GNU Octave?
       print (gcf, [FileName '-' get(gcf, 'name') '.emf'], '-dmeta');	% Octave
   else
       print (gcf, [FileName '-' get(gcf, 'name') '.svg'], '-dsvg');     % MATLAB
