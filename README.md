@@ -4,7 +4,7 @@
 
 **Voraussetzungen**: PC mit
 
-1. MATLAB® und Control Systems Toolbox für M-Skripte bzw. Funktionen
+1. MATLAB^® und Control Systems Toolbox für M-Skripte bzw. Funktionen
 2. MATLAB® und Simulink® für SLX-Modelle
 3. https://www.octave.org und `pkg install -forge control symbolic; pkg load control symbolic` für M-Skripte bzw. Funktionen
 4. https://www.scilab.org/ für SCE-Skripte oder SCI-Funktionen bzw. XCOS- oder ZCOS-Modelle
