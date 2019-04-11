@@ -7,7 +7,7 @@
 1. MATLAB® und Control Systems Toolbox für M-Skripte bzw. Funktionen
 2. MATLAB® und Simulink® für SLX-Modelle
 3. https://www.octave.org und `pkg install -forge control; pkg load control` für M-Skripte bzw. Funktionen
-4. https://www.scilab.org/ für SCE-Skripte bzw. XCOS- oder ZCOS-Modelle
+4. https://www.scilab.org/ für SCE-Skripte oder SCI-Funktionen bzw. XCOS- oder ZCOS-Modelle
 5. http://wxmaxima.sourceforge.net für WXM-Skripte
 
 **Datei**|**Beschreibung**
