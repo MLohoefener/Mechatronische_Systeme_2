@@ -2,6 +2,13 @@
 
 ## Skripte zu Vorlesungen Mechatronische Systeme 2 an der Hochschule Merseburg
 
+**Voraussetzungen**: PC mit
+
+1. MATLAB® und Control Systems Toolbox für M-Skripte bzw. Funktionen
+2. MATLAB® und Simulink® für SLX-Modelle
+3. https://www.octave.org und `pkg install -forge control; pkg load control` für M-Skripte bzw. Funktionen
+4. https://www.scilab.org/ für SCE-Skripte bzw. XCOS- oder ZCOS-Modelle
+
 **Datei**|**Beschreibung**
 ---|---
 **RK_kont.slx**|Simulink-Modell mit kontinuierlichem PID-Regler und Wendetangentenverfahren nach Chien/Hrones/Reswick
