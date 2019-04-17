@@ -1,4 +1,4 @@
-# Mechatronische_Systeme_2
+https://github.com/MLohoefener/Mechatronische_Systeme_2# Mechatronische_Systeme_2
 
 ## Skripte zu Vorlesungen Mechatronische Systeme 2 an der Hochschule Merseburg
 
@@ -17,3 +17,5 @@
 **RK.wxm**|Kontinuierlicher PID-Regelkreis mit wxMaxima
 **P_T2.m**|Pol-Nullstellen der Beispielregelstrecke kontinuierlich und diskret
 **printgcf.m**|MATLAB-Funktion: Draw x y coordinate system and grid in current figure. Choose minor grid (or not). Print current figure as SVG Scalable Vector Graphic or as EMF Enhanced Metafile
+**RK_T11.slx**|Simulink-Simulation eines diskreten Regelkreises nach Takahashi (1)
+**RK_diskr_T11.m**|Simulink-Simulation eines diskreten Regelkreises nach Takahashi (1)
