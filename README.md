@@ -1,4 +1,4 @@
-https://github.com/MLohoefener/Mechatronische_Systeme_2# Mechatronische_Systeme_2
+# Mechatronische Systeme 2
 
 ## Skripte zu Vorlesungen Mechatronische Systeme 2 an der Hochschule Merseburg
 
@@ -12,9 +12,14 @@ https://github.com/MLohoefener/Mechatronische_Systeme_2# Mechatronische_Systeme_
 
 **Datei**|**Beschreibung**
 ---|---
+**GS_M_Kask.m**|Kaskadenregelung eines fremderregten Gleichstrommotors
 **PID_diskr_symb.m**|Symbolische Diskretisierung des Standard-PID-Reglers
 **P_T2.m**|Pol-Nullstellen der Beispielregelstrecke kontinuierlich und diskret
 **RK.wxm**|Kontinuierlicher PID-Regelkreis mit wxMaxima
+**RK_DB_F.m**|Dead-Beat-Regelkreis für Führungsverhalten
+**RK_DB_F_d.m**|Dead-Beat-Regelkreis für Führungsverhalten mit Laufzeit
+**RK_DB_S.m**|Dead-Beat-Regelkreis für Führungs- und Störverhalten
+**RK_MV.m**|MinimalVarianz-Regelkreis für stochastisches Störverhalten
 **RK_T11.slx**|Simulink-Simulation eines diskreten Regelkreises nach Takahashi (1) Wendetangente
 **RK_T11_d.slx**|Simulink-Simulation eines diskreten Regelkreises nach Takahashi (1) Wendetangente mit Laufzeit
 **RK_T12.slx**|Simulink-Simulation eines diskreten Regelkreises nach Takahashi (1) Schwingungsversuch
