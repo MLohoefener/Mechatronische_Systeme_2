@@ -12,7 +12,7 @@
 
 **Datei**|**Beschreibung**
 ---|---
-**DC_contr_ZN.m**|M-sript with controlled DC motor RE 35 from Maxon with Ziegler-Nichols compared with optimized parameters
+**DC_contr_ZN.m**|M-script with controlled DC motor RE 35 from Maxon with Ziegler-Nichols compared with optimized parameters
 **GS_M_Kask.m**|Kaskadenregelung eines fremderregten Gleichstrommotors
 **PID_diskr_symb.m**|Symbolische Diskretisierung des Standard-PID-Reglers
 **P_T2.m**|Pol-Nullstellen der Beispielregelstrecke kontinuierlich und diskret
