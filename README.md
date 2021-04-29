@@ -12,6 +12,11 @@
 
 **Datei**|**Beschreibung**
 ---|---
+**Antrieb.m**|M-Script zur praktischen Anwendung der Methode der kleinsten Quadrate MKQ 
+**Antrieb.sce**|Scilab-Script zur praktischen Anwendung der Methode der kleinsten Quadrate MKQ
+**Antrieb_Ausg_Vekt.csv**|CSV-Datei mit dem Beispiel-Ausgangsvektor für die MKQ
+**Antrieb_Messmatr.csv**|CSV-Datei mit der Beispiel-Messmatrix für die MKQ
+**Antrieb_RLS.m**|M-Script zur praktischen Anwendung der Rekursiven Methode der kleinsten Quadrate RMKQ 
 **DC_contr_ZN.m**|M-script with controlled DC motor RE 35 from Maxon, tuned with Ziegler-Nichols, compared with optimized parameters
 **GS_M_Kask.m**|Kaskadenregelung eines fremderregten Gleichstrommotors
 **PID_diskr_symb.m**|Symbolische Diskretisierung des Standard-PID-Reglers
