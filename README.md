@@ -18,6 +18,7 @@
 **Antrieb_Messmatr.csv**|CSV-Datei mit der Beispiel-Messmatrix für die MKQ
 **Antrieb_RLS.m**|M-Script zur praktischen Anwendung der Rekursiven Methode der kleinsten Quadrate RMKQ 
 **DC_contr_ZN.m**|M-script with controlled DC motor RE 35 from Maxon, tuned with Ziegler-Nichols, compared with optimized parameters
+**FLS.xcos**|XCOS-Modell eines Fuzzy-Logik-Systems
 **GS_M_Kask.m**|Kaskadenregelung eines fremderregten Gleichstrommotors
 **PID_diskr_symb.m**|Symbolische Diskretisierung des Standard-PID-Reglers
 **P_T2.m**|Pol-Nullstellen der Beispielregelstrecke kontinuierlich und diskret
