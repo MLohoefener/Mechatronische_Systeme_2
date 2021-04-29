@@ -1,0 +1,53 @@
+# sciFLT scilab Fuzzy Logic Toolbox
+<REVISION>
+ <revision>@REV@
+
+<DESCRIPTION>
+ <name>Temp_Control
+ <comment>for heating
+ <type>ts
+ <SNorm>asum
+ <SNormPar>0
+ <TNorm>aprod
+ <TNormPar>0
+ <Comp>one
+ <CompPar>0
+ <ImpMethod>prod
+ <AggMethod>max
+ <defuzzMethod>wtsum
+
+<INPUT>
+ <name>Temperature
+ <range>-25 40
+  <mf_name>CD cold
+   <mf_type>trapmf
+   <mf_par>-100 -100 -5 5
+  <mf_name>CL cool
+   <mf_type>trimf
+   <mf_par>-5 5 20
+  <mf_name>W warm
+   <mf_type>trimf
+   <mf_par>5 20 30
+  <mf_name>H hot
+   <mf_type>trapmf
+   <mf_par>20 30 100 100
+
+<OUTPUT>
+ <name>Coal
+ <range>0 100
+  <mf_name>NC no coal
+   <mf_type>constant
+   <mf_par>0
+  <mf_name>LC less coal
+   <mf_type>constant
+   <mf_par>25
+  <mf_name>MC much coal
+   <mf_type>constant
+   <mf_par>100
+
+<RULE>
+1 3 1 1.0
+2 2 1 1.0
+3 1 1 1.0
+4 1 1 1.0
+
