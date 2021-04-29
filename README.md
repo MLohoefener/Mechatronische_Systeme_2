@@ -12,14 +12,21 @@
 
 **Datei**|**Beschreibung**
 ---|---
-**Antrieb.m**|M-Script zur praktischen Anwendung der Methode der kleinsten Quadrate MKQ 
-**Antrieb.sce**|Scilab-Script zur praktischen Anwendung der Methode der kleinsten Quadrate MKQ
+**Antrieb.m**|M-Skript zur praktischen Anwendung der Methode der kleinsten Quadrate MKQ 
+**Antrieb.sce**|Scilab-Skript zur praktischen Anwendung der Methode der kleinsten Quadrate MKQ
 **Antrieb_Ausg_Vekt.csv**|CSV-Datei mit dem Beispiel-Ausgangsvektor für die MKQ
 **Antrieb_Messmatr.csv**|CSV-Datei mit der Beispiel-Messmatrix für die MKQ
 **Antrieb_RLS.m**|M-Script zur praktischen Anwendung der Rekursiven Methode der kleinsten Quadrate RMKQ 
 **DC_contr_ZN.m**|M-script with controlled DC motor RE 35 from Maxon, tuned with Ziegler-Nichols, compared with optimized parameters
-**FLS.xcos**|XCOS-Modell eines Fuzzy-Logik-Systems
+**FLS.xcos**|Xcos-Modell eines Fuzzy-Logik-Systems
 **GS_M_Kask.m**|Kaskadenregelung eines fremderregten Gleichstrommotors
+**MKQ.m**|M-Skript zur Parameterschätzung nach der Methode der kleinsten Quadrate MKQ 
+**MKQ.sce**|Scilab-Skript zur Parameterschätzung nach der Methode der kleinsten Quadrate MKQ 
+**Modellauto-FLT.zcos**|Xcos-Modell eines Pkw mit Fuzzy-Logik-Bremsregelsystem
+**Modellauto-V1-125.zcos**|Xcos-Modell eines Pkw mit max. Beschleunigung mit 125 kW für 10 Sekunden
+**Modellauto-V1-75.zcos**|Xcos-Modell eines Pkw mit max. Beschleunigung mit 75 kW für 10 Sekunden
+**Modellauto-V2.zcos**|Xcos-Modell eines Pkw mit Bremsassistent
+**Modellauto-V3-25.zcos**|Xcos-Modell eines Pkw mit 24,5 kW
 **PID_diskr_symb.m**|Symbolische Diskretisierung des Standard-PID-Reglers
 **P_T2.m**|Pol-Nullstellen der Beispielregelstrecke kontinuierlich und diskret
 **RK.wxm**|Kontinuierlicher PID-Regelkreis mit wxMaxima
@@ -42,5 +49,6 @@
 **RK_kont.m**|M-Skript-Modell mit kontinuierlichem PID-Regler und Wendetangentenverfahren nach Chien/Hrones/Reswick
 **RK_kont.slx**|Simulink-Modell mit kontinuierlichem PID-Regler und Wendetangentenverfahren nach Chien/Hrones/Reswick
 **RKd.wxm**|Diskreter PID-Regelkreis mit wxMaxima
+**TempContr.fls**|Fuzzy-Logik-System für eine Temperaturregelung mit Scilab und sciFLT-Toolbox
 **cont_sim.m**|MATLAB-Funktion: Continuous answer to stairs on input
 **printgcf.m**|MATLAB-Funktion: Draw x y coordinate system and grid in current figure. Choose minor grid (or not). Print current figure as SVG Scalable Vector Graphic or as EMF Enhanced Metafile
